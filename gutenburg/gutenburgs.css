@@ -1,0 +1,82 @@
+body {
+    margin: 5%;
+    background: rgb(227, 226, 170);
+    text-align: left;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    text-indent: 1em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: dashed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+hr {
+    width: 50%;
+    text-align: center
+}
+.foot {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 80%;
+    font-style: italic
+}
+blockquote {
+    font-size: 97%;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%
+}
+.toc {
+    margin-left: 10%;
+    margin-bottom: 0.75em
+}
+.preserve {
+    font-style: italic;
+    font-size: 90%;
+    margin-left: 10%
+}
+.ph1, .ph2, .ph3, .ph4, .ph5 {
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+}
+.ph1 {
+    font-size: xx-large;
+    margin: 0.67em auto
+}
+.ph2 {
+    font-size: x-large;
+    margin: 0.75em auto
+    }
+.ph3 {
+    font-size: large;
+    margin: 0.83em auto
+}
+.ph4, .ph5 {
+    font-size: medium;
+    margin: 1.12em auto
+}
+div.chapter {
+    page-break-before: always
+}
+h2, h3 {
+    page-break-before: avoid
+}
+
+.pginternal {
+    text-decoration: underline;
+}

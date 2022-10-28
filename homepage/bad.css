@@ -1,0 +1,48 @@
+.banner {
+    padding: 60px;
+    text-align: center;
+    background: #008efe;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(#008efe, #008efe);
+}
+h1{
+    background-image: linear-gradient(#e9edf0, #9fab42);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.pic{
+    width: 25vh;
+    height: 25vh;
+    float: left;
+}
+
+.whotext{
+    width: 48%;
+    float: left;
+    padding-left: 2%;
+    font-size: 20px;
+    padding-bottom: 2%;
+    background-color: purple;
+}
+body{
+    background-color: red;
+    font-family: "Brush Script MT", "Brush Script Std, cursive";
+}
+.rightcolumn{
+    float: right;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #e3e3e8;
+    background-color: pink;
+}
+
+#prof{
+    text-decoration: underline;
+    color: blue;
+}
+.exp{
+    width: 20%;
+    float: right;
+    color: black;
+}
